@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5438ee2.css",
+    "main.js": "/static/js/main.ea19ecce.js",
+    "static/media/0bg-hero.png": "/static/media/0bg-hero.bf780061fd23355eeac4.png",
+    "static/media/03bg-proyectos.jpg": "/static/media/03bg-proyectos.62cc63cfff8e281e0b0e.jpg",
+    "static/media/Tizamol.png": "/static/media/Tizamol.4f8b0f897c12aa74a4ef.png",
+    "static/media/011bg-servicios.jpg": "/static/media/011bg-servicios.d23e200b0f45f6127477.jpg",
+    "static/media/logo-header.svg": "/static/media/logo-header.f76b94a62245a82a2457.svg",
+    "index.html": "/index.html",
+    "main.c5438ee2.css.map": "/static/css/main.c5438ee2.css.map",
+    "main.ea19ecce.js.map": "/static/js/main.ea19ecce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5438ee2.css",
+    "static/js/main.ea19ecce.js"
+  ]
+}
