@@ -1,0 +1,373 @@
+html {
+    box-sizing: border-box;
+    height: -webkit-fill-available;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    text-transform: uppercase;
+  }
+
+  body{
+      background-color: #012483;
+  }
+.navegacion{
+    display: grid;
+    grid-template-columns: repeat(2, 70% 30%);
+    max-width: 100%;
+    margin-bottom: 10rem;
+}
+
+.botonInicio{
+    max-width: max-content;
+    padding: .9rem;
+    max-height:75px;
+    align-self: center;
+    color: white;
+    border-radius: 5%;
+    font-size: 19px;
+    border: 2px pink solid;
+    font-weight: 500;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.botonInicio:hover{
+    background-color: #012483;
+    color: white;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.portada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color: #34F0DC;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+hr{
+    width: 30%;
+    color: #3E0C90;
+}
+
+.tituloPortada{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+hr{
+    color: pink;
+}
+
+.botonPortada{
+    padding: 15px 30px;
+    background-color: #3E0C90;
+    color: #F098FC;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 5px 10px 0px #1f829b;
+    border-radius: 5%;
+}
+
+.botonPortada:hover{
+    background-color: #012483;
+    color: white;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.botonServicios{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: #44FAE3;
+    background-color: #7307C600;
+    border: 1px #44FAE3 solid ;
+    padding: 20px 40px 20px 40px;
+}
+
+.tituloServicios{
+    color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tituloServicios span{
+    color: #44FAE3;
+}
+
+.contenedorMenu{
+    display: grid;
+    grid-template-columns: repeat(3,10% 80% 10%);
+}
+
+img{
+    max-width: 250px;
+}
+
+.ContenedorServicios{
+    background-image: url(../Media/011bg-servicios.jpg)
+}
+
+.seccionBoton{
+    margin-top: 10rem;
+}
+
+.cliente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Media/03bg-proyectos.jpg);
+    background-color: rgba(0, 0, 0, .69);
+    opacity: .9;
+    background-size: cover;
+}
+
+.botonClientes{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5rem;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: #44FAE3;
+    background-color: #7307C600;
+    border: 1px #44FAE3 solid ;
+    font-weight: 500;
+    padding: 20px 40px 20px 40px;
+}
+
+#img{
+    margin-bottom: 3rem;
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer{
+    background-color: #2C2772;
+}
+h5{
+    color: white;
+    font-size: 20px;
+}
+
+.Link{
+    color: #44FAE3;
+    font-size: 28px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.campos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.campo{
+    text-align: initial;
+}
+
+input{
+    width: 100%;
+    padding: 1rem;
+    background-color: #2C2772;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.consulta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: initial;
+    margin-bottom: 2rem;
+}
+
+textarea{
+    height: 10rem;
+    font-size: 20px;
+    background-color: #2C2772;
+    border: none;
+    border-radius: 10px;
+}
+
+select{
+    display: flex;
+    padding: .8rem;
+    width: 100%;
+    background-color: #2C2772;
+    color: white;
+    text-transform: none;
+    font-size: 18px;
+}
+
+
+.botonFormulario{
+    padding: 15px 15px;
+    background-color: #3E0C90;
+    color: #F098FC;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 5px 10px 0px #1f829b;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.botonFormulario:hover{
+    transition: .5s;
+    background-color: #34F0DC;
+    color: white;
+}
+
+form{
+    margin-bottom: 8rem;
+}
+
+label{
+    color: #D46CFF;
+    line-height: 3.8em;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.footerContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Informacion{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    color: #D46CFF;
+}
+
+.redesSocialesFooter p{
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: none;
+    font-family: serif;
+}
+
+.redesSocialesMenu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.Icono{
+    margin-bottom: 1rem;
+}
+
+.Iconos{
+    margin-right: 20px;
+}
+
+.Iconos:hover{
+    background-color: #1f829b;
+    border-radius: 15px;
+    stroke: black;
+}
+
+@media (min-width: 900px){
+    .footerGrid{
+        text-align-last: center;
+    }
+}
+@media(max-width: 768px){
+    .footerGrid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .redesSocialesFooter{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .Iconos{
+        margin-top: 1rem;
+    }
+    
+}
+
+@media(max-width: 600px){
+    .footerGrid{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .redesSocialesFooter{
+        justify-content: center;
+    }
+    .campos{
+        display: flex;
+        flex-direction: column;
+    }
+    .redesSocialesMenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contenedorMenu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 380px){
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .tituloPortada{
+        font-size: 42px;
+    }
+    .portada{
+        margin-bottom: 5rem;
+    }
+    .footerGrid{
+        text-align: left;
+    }
+    .Iconos{
+        margin: 1rem 0 0 0;
+    }
+    .redesSocialesFooter{
+        justify-content: left;
+    }
+    .footerLogo img{
+        margin-left: -2.5rem;
+    }
+}
+
+@media (max-width: 491px){
+    .navegacion{
+        grid-template-columns: repeat(2, 60% 40%);
+        margin-bottom: 4rem;
+    }
+}
+
+

@@ -1,0 +1,74 @@
+.Contenedor{
+  background-image: url(./Media/0bg-hero.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: none;
+  max-width: -webkit-fill-available;
+}
+
+.Overley{
+  background-color: #040219;
+  opacity: 55;
+  transition: .3s .3s .3;
+}
+
+#root{
+  width: 100%;
+}
+.ContenedorServicios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+
+.ContenedorFormulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #491B93;
+  text-align: center;
+}
+
+.Grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 1rem;
+}
+
+.seccionServicio{
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #2C2772;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.seccionServicio h5{
+  color: #44FAE3;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: emoji, 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media(max-width: 640px){
+  .Grid{
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media(max-width: 949px){
+  .Grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
